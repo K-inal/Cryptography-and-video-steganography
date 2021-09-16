@@ -1,0 +1,15 @@
+disp('Select a video');
+[namefile,pathname1]=uigetfile('*.*','Select a video');
+
+disp('Select a video');
+[namefile13,pathname2]=uigetfile('*.*','Select a video');
+namefile22 = string(namefile)
+namefile11 = string(namefile13)
+
+ff = strcmp( namefile22,namefile11)
+
+if namefile22 == namefile11
+    disp('hi')
+else
+    disp('bye')
+end
